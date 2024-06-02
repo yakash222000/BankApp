@@ -16,11 +16,11 @@ public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long accountNumber;
-    @Column(name="account_holder_name")
+    @Column
     private String accountHolderName;
-    @Column(name = "account_type")
+    @Column
     private String accountType;
-    @Column(name="balance")
+    @Column
     private Double balance;
 
     @Override

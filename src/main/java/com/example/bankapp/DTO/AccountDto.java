@@ -1,14 +1,9 @@
 package com.example.bankapp.DTO;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-@Getter
-@Setter
+@Data
 @AllArgsConstructor
-@NoArgsConstructor
 public class AccountDto {
     private Long accountNumber;
     private String accountHolderName;
